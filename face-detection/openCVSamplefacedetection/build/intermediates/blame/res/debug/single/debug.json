@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw_lbpcascade_frontalface.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/raw/lbpcascade_frontalface.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_face_detect_surface_view.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/layout/face_detect_surface_view.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable_ic_sync_black_24dp.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/drawable/ic_sync_black_24dp.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable_ic_info_black_24dp.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/drawable/ic_info_black_24dp.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/xml_pref_data_sync.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/xml/pref_data_sync.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/xml_pref_headers.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/xml/pref_headers.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable_icon.png.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/xml_pref_notification.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/xml/pref_notification.xml"
+    },
+    {
+        "merged": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/res/merged/debug/xml_pref_general.xml.flat",
+        "source": "/home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/res/xml/pref_general.xml"
+    }
+]

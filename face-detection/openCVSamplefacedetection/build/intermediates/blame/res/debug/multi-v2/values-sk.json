@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml",
+            "map": [
+                {
+                    "source": "/home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:2:1-62:12
+MERGED from [:openCVLibrary343] /home/marcio/semente/face-detection/openCVLibrary343/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-rc02.aar/c96259e6aed2e8b93293873773066e75/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/51db3f3109169498231d18610d6de001/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/26a0c870ec351eedadfbb50a339fdf86/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/99694a523ac9c3964420539f054d03f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/b29ed9a0d73c216d82271c930bab40d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/9ccdaed73e976403f20aaf7c8ba996d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/16d276ca788553076d475e04352d78fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/627cb5ece7290c31c75ee0ee8e8104a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/fc0105319f896fab81be10cadfd7821a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/e3f3eb82510611436804d1d7932c88e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/06993a90a2d10ddcb3b76064c4ad39f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/228457e2f4547556fe61701f2ef316ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/0e910db64052afccd68094abe6bf3a0e/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1b46def9f3a773a55fdc03776c984973/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/4b06f1d339af9d45a17afcd022672757/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/bb7da7a9991331b58886f56f5ccb6ffd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/fa37bcf5d2361d5a7635388704fb0391/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/3c82611a270ae673e6d886c57d7abca0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/43472cfa5bac3214ec5f667bfdf52aa8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/bf6278c7ae70d4a407f60a1c9fc97557/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9175281e5425507827f662bde8c16579/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8f95460c531b57fdf365dd34f0888f59/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:2:1-62:12
+	package
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:5:5-31
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:7:5-44
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:7:5-44
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:7:5-44
+MERGED from [:openCVLibrary343] /home/marcio/semente/face-detection/openCVLibrary343/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary343] /home/marcio/semente/face-detection/openCVLibrary343/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-rc02.aar/c96259e6aed2e8b93293873773066e75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-rc02.aar/c96259e6aed2e8b93293873773066e75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/ed395e5ca9ef610bde37d30a7623294e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/51db3f3109169498231d18610d6de001/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/51db3f3109169498231d18610d6de001/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/26a0c870ec351eedadfbb50a339fdf86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/26a0c870ec351eedadfbb50a339fdf86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/99694a523ac9c3964420539f054d03f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/99694a523ac9c3964420539f054d03f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/b29ed9a0d73c216d82271c930bab40d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/b29ed9a0d73c216d82271c930bab40d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/9ccdaed73e976403f20aaf7c8ba996d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/9ccdaed73e976403f20aaf7c8ba996d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/16d276ca788553076d475e04352d78fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/16d276ca788553076d475e04352d78fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/627cb5ece7290c31c75ee0ee8e8104a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/627cb5ece7290c31c75ee0ee8e8104a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/fc0105319f896fab81be10cadfd7821a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/fc0105319f896fab81be10cadfd7821a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/e3f3eb82510611436804d1d7932c88e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/e3f3eb82510611436804d1d7932c88e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/06993a90a2d10ddcb3b76064c4ad39f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/06993a90a2d10ddcb3b76064c4ad39f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/228457e2f4547556fe61701f2ef316ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/228457e2f4547556fe61701f2ef316ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/0e910db64052afccd68094abe6bf3a0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/0e910db64052afccd68094abe6bf3a0e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1b46def9f3a773a55fdc03776c984973/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1b46def9f3a773a55fdc03776c984973/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/4b06f1d339af9d45a17afcd022672757/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/4b06f1d339af9d45a17afcd022672757/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/bb7da7a9991331b58886f56f5ccb6ffd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/bb7da7a9991331b58886f56f5ccb6ffd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/fa37bcf5d2361d5a7635388704fb0391/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/fa37bcf5d2361d5a7635388704fb0391/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/3c82611a270ae673e6d886c57d7abca0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/3c82611a270ae673e6d886c57d7abca0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/43472cfa5bac3214ec5f667bfdf52aa8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/43472cfa5bac3214ec5f667bfdf52aa8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/bf6278c7ae70d4a407f60a1c9fc97557/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/bf6278c7ae70d4a407f60a1c9fc97557/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9175281e5425507827f662bde8c16579/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9175281e5425507827f662bde8c16579/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8f95460c531b57fdf365dd34f0888f59/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/marcio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8f95460c531b57fdf365dd34f0888f59/AndroidManifest.xml:20:5-44
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:7:5-44
+INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:7:5-44
+	android:targetSdkVersion
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:7:5-44
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:7:15-41
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+		INJECTED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:9:5-14:39
+	android:largeScreens
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:11:9-36
+	android:smallScreens
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:14:9-36
+	android:normalScreens
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:12:9-37
+	android:resizeable
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:13:9-34
+	android:anyDensity
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:10:9-34
+uses-permission#android.permission.CAMERA
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:16:5-65
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:16:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:19:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:22:9-57
+uses-feature#android.hardware.camera.front
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:25:9-53
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:28:9-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:31:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:32:5-75
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:32:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:33:22-77
+application
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:35:5-60:19
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/0e910db64052afccd68094abe6bf3a0e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/0e910db64052afccd68094abe6bf3a0e/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] /home/marcio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/48200d6c5f0f3f1fd6b64068bf5f7838/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:37:9-41
+	android:icon
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:36:9-38
+	android:theme
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:38:9-79
+activity#org.opencv.samples.facedetect.FdActivity
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:41:9-51:20
+	android:screenOrientation
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:45:13-50
+	android:label
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:44:13-45
+	android:configChanges
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:43:13-63
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:42:13-39
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:49:27-74
+activity#org.opencv.samples.facedetect.Config
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:52:9-59:20
+	android:parentActivityName
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:55:13-53
+	android:label
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:54:13-58
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:53:13-35
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:56:13-58:76
+	android:value
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:58:17-73
+	android:name
+		ADDED from /home/marcio/semente/face-detection/openCVSamplefacedetection/src/main/AndroidManifest.xml:57:17-63

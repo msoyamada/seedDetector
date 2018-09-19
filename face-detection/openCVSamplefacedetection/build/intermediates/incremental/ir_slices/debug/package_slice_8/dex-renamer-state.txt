@@ -1,0 +1,4 @@
+#Wed Sep 19 10:44:28 BRT 2018
+base.0=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/128
+path.0=classes.dex
+renamed.0=classes.dex

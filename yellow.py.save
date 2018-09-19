@@ -1,0 +1,22 @@
+import cv2 as cv
+import numpy as np
+from matplotlib import pyplot as plt
+
+img = cv.imread('image01.jpeg')
+hsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)
+lower_blue = np.array([180,26,60])
+pper_blue = np.array([190,255,255])
+
+# Threshold the HSV image to get only blue colors
+mask = cv.inRange(hsv, lower_blue, upper_blue)
+ 
+# Bitwise-AND mask and original image
+res = cv.bitwise_and(img,img, mask= mask)
+ 
+cv.imshow('img',img)
+cv.imshow('mask',mask)
+cv.imshow('res',res)
+while(1):
+	k= cv.waitKey(100)
+	if k==27:
+		break
