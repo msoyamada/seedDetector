@@ -1,6 +1,7 @@
 package org.opencv.samples.facedetect;
 
 import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.app.Activity;
 import android.widget.SeekBar;
@@ -41,16 +42,25 @@ public class Config extends Activity {
 
 
         TextView tfUpper=findViewById(R.id.UpperHSV);
-        tf.setText("LowerHSV "+ " H= "+ FdActivity.lHSV[0] + " S="+ FdActivity.lHSV[1] + " V="+FdActivity.lHSV[2] );
-        tf.setTextColor(Color.WHITE);
+        tfUpper.setText("Upper "+ " H= "+ FdActivity.uHSV[0] + " S="+ FdActivity.uHSV[1] + " V="+FdActivity.uHSV[2] );
+        tfUpper.setTextColor(Color.WHITE);
         uHSV[0]= (float)(FdActivity.uHSV[0]*2);
         uHSV[1]= (float)(FdActivity.uHSV[1]/255);
         uHSV[2]= (float)(FdActivity.uHSV[2]/255);
-        tf.setBackgroundColor(Color.HSVToColor(lHSV));
+        tfUpper.setBackgroundColor(Color.HSVToColor(uHSV));
         upperH.setProgress(FdActivity.uHSV[0]);
         upperS.setProgress(FdActivity.uHSV[1]);
         upperV.setProgress(FdActivity.uHSV[1]);
 
+
+
+        GradientDrawable gd = new GradientDrawable (
+                GradientDrawable.Orientation.BR_TL, // check below link for this you can change this value
+                new int[] {Color.HSVToColor(lHSV),Color.HSVToColor(uHSV)}
+        );
+
+        TextView gf= findViewById(R.id.gradiente);
+        gf.setBackground(gd);
 
 
 
@@ -63,6 +73,13 @@ public class Config extends Activity {
                 int color= Color.HSVToColor(lHSV);
                 tf.setBackgroundColor(color);
                 tf.setText("LowerHSV "+ " H= "+ FdActivity.lHSV[0] + " S="+ FdActivity.lHSV[1] + " V="+FdActivity.lHSV[2] );
+                GradientDrawable gd = new GradientDrawable (
+                        GradientDrawable.Orientation.BR_TL, // check below link for this you can change this value
+                        new int[] {Color.HSVToColor(lHSV),Color.HSVToColor(uHSV)}
+                );
+
+                TextView gf= findViewById(R.id.gradiente);
+                gf.setBackground(gd);
 
             }
 
@@ -87,6 +104,13 @@ public class Config extends Activity {
                 int color= Color.HSVToColor(lHSV);
                 tf.setBackgroundColor(color);
                 tf.setText("LowerHSV "+ " H= "+ FdActivity.lHSV[0] + " S="+ FdActivity.lHSV[1] + " V="+FdActivity.lHSV[2] );
+                GradientDrawable gd = new GradientDrawable (
+                        GradientDrawable.Orientation.BR_TL, // check below link for this you can change this value
+                        new int[] {Color.HSVToColor(lHSV),Color.HSVToColor(uHSV)}
+                );
+
+                TextView gf= findViewById(R.id.gradiente);
+                gf.setBackground(gd);
             }
 
             @Override
@@ -110,6 +134,13 @@ public class Config extends Activity {
                 int color= Color.HSVToColor(lHSV);
                 tf.setBackgroundColor(color);
                 tf.setText("LowerHSV "+ " H= "+ FdActivity.lHSV[0] + " S="+ FdActivity.lHSV[1] + " V="+FdActivity.lHSV[2] );
+                GradientDrawable gd = new GradientDrawable (
+                        GradientDrawable.Orientation.BR_TL, // check below link for this you can change this value
+                        new int[] {Color.HSVToColor(lHSV),Color.HSVToColor(uHSV)}
+                );
+
+                TextView gf= findViewById(R.id.gradiente);
+                gf.setBackground(gd);
             }
 
             @Override
@@ -128,12 +159,19 @@ public class Config extends Activity {
         upperH.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                TextView tf=findViewById(R.id.LowerHSV);
+                TextView tf=findViewById(R.id.UpperHSV);
                 FdActivity.uHSV[0]= progress;
                 uHSV[0]= (float)progress *2;
                 int color= Color.HSVToColor(uHSV);
                 tf.setBackgroundColor(color);
                 tf.setText("UpperHSV "+ " H= "+ FdActivity.uHSV[0] + " S="+ FdActivity.uHSV[1] + " V="+FdActivity.uHSV[2] );
+                GradientDrawable gd = new GradientDrawable (
+                        GradientDrawable.Orientation.BR_TL, // check below link for this you can change this value
+                        new int[] {Color.HSVToColor(lHSV),Color.HSVToColor(uHSV)}
+                );
+
+                TextView gf= findViewById(R.id.gradiente);
+                gf.setBackground(gd);
 
             }
 
@@ -158,6 +196,13 @@ public class Config extends Activity {
                 int color= Color.HSVToColor(uHSV);
                 tf.setBackgroundColor(color);
                 tf.setText("UpperHSV "+ " H= "+ FdActivity.uHSV[0] + " S="+ FdActivity.uHSV[1] + " V="+FdActivity.uHSV[2] );
+                GradientDrawable gd = new GradientDrawable (
+                        GradientDrawable.Orientation.BR_TL, // check below link for this you can change this value
+                        new int[] {Color.HSVToColor(lHSV),Color.HSVToColor(uHSV)}
+                );
+
+                TextView gf= findViewById(R.id.gradiente);
+                gf.setBackground(gd);
             }
 
             @Override
@@ -181,6 +226,13 @@ public class Config extends Activity {
                 int color= Color.HSVToColor(uHSV);
                 tf.setBackgroundColor(color);
                 tf.setText("UpperHSV "+ " H= "+ FdActivity.uHSV[0] + " S="+ FdActivity.uHSV[1] + " V="+FdActivity.uHSV[2] );
+                GradientDrawable gd = new GradientDrawable (
+                        GradientDrawable.Orientation.BR_TL, // check below link for this you can change this value
+                        new int[] {Color.HSVToColor(lHSV),Color.HSVToColor(uHSV)}
+                );
+
+                TextView gf= findViewById(R.id.gradiente);
+                gf.setBackground(gd);
             }
 
             @Override
