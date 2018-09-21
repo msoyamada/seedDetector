@@ -41,7 +41,7 @@ public:
     {
         LOGD("CascadeDetectorAdapter::Detect: begin");
         LOGD("CascadeDetectorAdapter::Detect: scaleFactor=%.2f, minNeighbours=%d, minObjSize=(%dx%d), maxObjSize=(%dx%d)", scaleFactor, minNeighbours, minObjSize.width, minObjSize.height, maxObjSize.width, maxObjSize.height);
-        Detector->detectMultiScale(Image, objects, scaleFactor, minNeighbours, 0, minObjSize, maxObjSize);
+      //  Detector->detectMultiScale(Image, objects, scaleFactor, minNeighbours, 0, minObjSize, maxObjSize);
         LOGD("CascadeDetectorAdapter::Detect: end");
     }
 
@@ -269,10 +269,17 @@ JNIEXPORT void JNICALL Java_org_opencv_samples_facedetect_DetectionBasedTracker_
     try
     {
 
-        Mat grayD;
-        grayD= *(Mat*)frame;
+        Mat grayD, mRgba, hsv;
+
+        mRgba= *(Mat*)frame;
         vector<vector<Point> > contours;
         vector<Vec4i> hierarchy;
+
+        cvtColor(mRgba, hsv, COLOR_RGB2HSV);
+        Scalar lower = Scalar(80, 50, 50);
+        Scalar upper = Scalar(115, 255, 255);
+        inRange(hsv, lower, upper, grayD);
+        medianBlur(grayD, grayD, 11);
 
         findContours( grayD, contours, hierarchy, RETR_LIST, CHAIN_APPROX_SIMPLE, Point(0, 0) );
         //sort contours
@@ -285,20 +292,20 @@ JNIEXPORT void JNICALL Java_org_opencv_samples_facedetect_DetectionBasedTracker_
         {
             Scalar color = Scalar( 255, 0, 0 );
             //drawContours( drawing, contours, i, color, 2, 8, hierarchy, 0, Point() );
+            Point2f center;
+            float radius;
+            minEnclosingCircle(contours[i], center, radius);
             double area= contourArea(contours[i]);
-            if ((area < 500) && (area >20)) {
-                Point2f center;
-                float radius;
-                minEnclosingCircle(contours[i], center, radius);
+            if ((radius < 25) && (radius > 5)) {
                 cout << center << endl ;
-                circle(grayD,center,(int)radius,(0,255,0),5);
+                circle(mRgba,center,(int)radius,(0,255,0),5);
                 if (i < contours.size()-1)
                 {
                     Point2f Ncenter;
                     float Nradius;
                     minEnclosingCircle(contours[i+1], Ncenter, Nradius);
 
-                    arrowedLine(grayD, center, Point2f(Ncenter.x, center.y), Scalar(0,0,0), 3) ;
+                    arrowedLine(mRgba, center, Point2f(Ncenter.x, center.y), Scalar(0,0,0), 3) ;
                     String s;
                     s = ((int)(Ncenter.x-center.x)*10);
                     s += " mm";
@@ -310,7 +317,6 @@ JNIEXPORT void JNICALL Java_org_opencv_samples_facedetect_DetectionBasedTracker_
             }
 
         }
-
 
     }
     catch(cv::Exception& e)

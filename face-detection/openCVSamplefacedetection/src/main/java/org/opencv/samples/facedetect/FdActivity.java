@@ -95,8 +95,12 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
     //private int                    mAbsoluteFaceSize   = 0;
     private int minSeedSize;
     private int maxSeedSize;
+    private long begin;
+    private long end;
+    private int fps;
 
-
+    static int lHSV[]= {80, 50,50};
+    static int uHSV[]= {115,255,255};
 
     private CameraBridgeViewBase   mOpenCvCameraView;
 
@@ -220,7 +224,7 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
         mRgba = inputFrame.rgba();
         mGray = inputFrame.gray();
-
+        begin = System.currentTimeMillis();
 //        if (mAbsoluteFaceSize == 0) {
 //            int height = mGray.rows();
 //            if (Math.round(height * mRelativeFaceSize) > 0) {
@@ -240,8 +244,8 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
 
 
             cvtColor(mRgba, hsv, COLOR_RGB2HSV);
-            Scalar lower= new Scalar(80, 50, 50);
-            Scalar upper= new Scalar(115, 255, 255);
+            Scalar lower= new Scalar(lHSV[0], lHSV[1], lHSV[2]);
+            Scalar upper= new Scalar(uHSV[0], uHSV[1], uHSV[2]);
             inRange(hsv, lower, upper, grayD);
             medianBlur(grayD, grayD, 11);
 
@@ -292,13 +296,13 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
             if (mNativeDetector != null) {
                 Mat dists = new Mat();
 
-                cvtColor(mRgba, hsv, COLOR_BGR2HSV);
-                Scalar lower= new Scalar(80, 50, 50);
-                Scalar upper= new Scalar(115, 255, 255);
-                inRange(hsv, lower, upper, grayD);
-                medianBlur(grayD, grayD, 11);
+//                cvtColor(mRgba, hsv, COLOR_BGR2HSV);
+//                Scalar lower= new Scalar(80, 50, 50);
+//                Scalar upper= new Scalar(115, 255, 255);
+//                inRange(hsv, lower, upper, grayD);
+//                medianBlur(grayD, grayD, 11);
 
-                mNativeDetector.detectSeed(grayD, dists);
+                mNativeDetector.detectSeed(mRgba, dists);
 
               //  mNativeDetector.detect(mGray, faces);
             }
@@ -311,7 +315,9 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
 //        Rect[] facesArray = faces.toArray();
 //        for (int i = 0; i < facesArray.length; i++)
 //            Imgproc.rectangle(mRgba, facesArray[i].tl(), facesArray[i].br(), FACE_RECT_COLOR, 3);
-
+        end= System.currentTimeMillis();
+        fps= (int)(1000/(end-begin));
+        putText(mRgba, String.valueOf(fps) , new Point(15, 100), FONT_HERSHEY_PLAIN, 2, new Scalar(0,0,0),2);
         return mRgba;
     }
 

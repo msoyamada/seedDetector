@@ -1,4 +1,4 @@
-#Wed Sep 19 10:47:49 BRT 2018
-base.0=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/120
+#Fri Sep 21 15:00:29 BRT 2018
+base.0=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/171
 path.0=classes.dex
 renamed.0=classes.dex

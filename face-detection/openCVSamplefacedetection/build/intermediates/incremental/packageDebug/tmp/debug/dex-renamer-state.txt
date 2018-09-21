@@ -1,4 +1,4 @@
-#Wed Sep 19 10:44:28 BRT 2018
+#Fri Sep 21 15:00:30 BRT 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/132
-base.2=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/134
-base.1=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/131
-base.0=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/133
+base.3=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/184
+base.2=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/183
+base.1=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/185
+base.0=/home/marcio/semente/face-detection/openCVSamplefacedetection/build/intermediates/transforms/dexMerger/debug/182
