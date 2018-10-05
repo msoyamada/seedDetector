@@ -317,14 +317,14 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
 //            Imgproc.rectangle(mRgba, facesArray[i].tl(), facesArray[i].br(), FACE_RECT_COLOR, 3);
         end= System.currentTimeMillis();
         fps= (int)(1000/(end-begin));
-        putText(mRgba, String.valueOf(fps) , new Point(15, 100), FONT_HERSHEY_PLAIN, 2, new Scalar(0,0,0),2);
+
         return mRgba;
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         Log.i(TAG, "called onCreateOptionsMenu");
-        this.setTitle("OpenCV Seed Detector MinSeedSize "+minSeedSize + " MaxSeedSize="+ maxSeedSize);
+        this.setTitle("OpenCV Seed Detector MinSeedSize "+minSeedSize + " MaxSeedSize="+ maxSeedSize + " FPS="+fps);
         increasemaxSeedSize = menu.add("Increase Max Seed Size");
         decreasemaxSeedSize= menu.add("Decrease Max Seed Size");
         increaseminSeedSize = menu.add("Increase Min Seed Size");
@@ -356,7 +356,7 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
             startActivity(intent);
 
         }
-        this.setTitle("OpenCV Seed Detector MinSeedSize "+minSeedSize + " MaxSeedSize="+ maxSeedSize);
+        this.setTitle("OpenCV Seed Detector MinSeedSize "+minSeedSize + " MaxSeedSize="+ maxSeedSize + " FPS= "+fps);
         return true;
     }
 

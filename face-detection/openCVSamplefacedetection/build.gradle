@@ -12,6 +12,7 @@ android {
         ndk {
             moduleName "detection_based_tracker"
             abiFilters "armeabi-v7a"
+           // abiFilters "arm64-v8a"
         }
     }
 
